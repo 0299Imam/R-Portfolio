@@ -1,6 +1,3 @@
-View(complaints)
-head(complaints)
-
 # Load necessary library
 library(tidyverse)
 
