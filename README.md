@@ -6,7 +6,8 @@ This R project provides an exploratory analysis of banking consumer complaints, 
 
 ## Data Source
 
-The analysis is based on a dataset containing consumer complaints related to various banking products and services. The specific source of the data is not explicitly mentioned in the code, but it's assumed to be a CSV file named "complaints.csv." 
+The analysis is based on a dataset containing consumer complaints related to various banking products and services. The specific source of the data is not explicitly mentioned in the code, but it's assumed to be a CSV file named "complaints.csv." Here's the [data source](https://www.consumerfinance.gov/data-research/consumer-complaints/#download-the-data) 
+
 
 ## Code Overview
 
