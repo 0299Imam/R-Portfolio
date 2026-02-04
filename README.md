@@ -119,7 +119,7 @@ This project explores customer shopping behavior data to understand factors rela
 The focus of this project is not model complexity, but **data understanding, preparation, and evaluation**.
 
 ## 📊 Dataset
-- Source: Customer Shopping Behavior Dataset
+- Source: Customer Shopping Behavior Dataset [data source](https://www.kaggle.com/datasets/wardabilal/customer-shopping-behaviour-analysis/data)
 - Target variable: `subscription_status` (Yes / No)
 
 ## 🔍 Analysis Workflow
