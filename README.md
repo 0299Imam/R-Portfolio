@@ -109,6 +109,65 @@ Place the "ecommerce.csv" file in the same directory as your R script.
 * **Predictive Analysis:** Use machine learning models to predict future sales trends or identify factors influencing customer loyalty.
 * **Interactive Visualizations:** Leverage packages like shiny or plotly to create interactive charts and dashboards for deeper engagement.
 
+
+
+## 3 Customer Shopping Behavior – Subscription Analysis (R)
+
+## 📌 Project Overview
+This project explores customer shopping behavior data to understand factors related to subscription status and builds a baseline predictive model using R.
+
+The focus of this project is not model complexity, but **data understanding, preparation, and evaluation**.
+
+## 📊 Dataset
+- Source: Customer Shopping Behavior Dataset
+- Target variable: `subscription_status` (Yes / No)
+
+## 🔍 Analysis Workflow
+1. **Data Loading & Cleaning**
+   - Cleaned column names using `janitor`
+   - Data structure and quality checks with `glimpse()` and `skimr`
+
+2. **Exploratory Data Analysis (EDA)**
+   - Subscription proportion analysis
+   - Subscription vs purchase frequency
+   - Distribution of purchase amount by subscription
+   - Purchase behavior comparison between subscribers and non-subscribers
+
+3. **Feature Preparation**
+   - Converted target variable to factor
+   - Removed identifier columns
+   - Train-test split with stratification
+   - Preprocessing with `tidymodels`:
+     - Missing value imputation
+     - Dummy encoding for categorical variables
+     - Near-zero variance filtering
+
+4. **Modeling & Evaluation**
+   - Baseline Logistic Regression
+   - Performance metrics:
+     - ROC-AUC
+     - Accuracy
+     - Confusion Matrix
+
+## 🛠 Tools & Libraries
+- R
+- tidyverse
+- janitor
+- skimr
+- tidymodels
+- ggplot2
+
+## 📈 Key Takeaways
+- EDA provides critical context before modeling
+- Feature preparation significantly impacts model performance
+- Baseline models are essential for benchmarking future improvements
+
+## 🚀 Next Steps
+- Feature engineering (behavioral aggregation)
+- Model comparison (tree-based models)
+- Hyperparameter tuning
+
+
 ## Disclaimer
 
 This analysis is for illustrative purposes. The conclusions drawn from the analysis may vary depending on the specific dataset used. Always ensure the data is representative and the analysis is conducted with appropriate statistical rigor.
