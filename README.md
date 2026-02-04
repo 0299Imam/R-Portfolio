@@ -111,7 +111,7 @@ Place the "ecommerce.csv" file in the same directory as your R script.
 
 
 
-## 3 Customer Shopping Behavior – Subscription Analysis (R)
+## 3. Customer Shopping Behavior – Subscription Analysis (R)
 
 ## 📌 Project Overview
 This project explores customer shopping behavior data to understand factors related to subscription status and builds a baseline predictive model using R.
